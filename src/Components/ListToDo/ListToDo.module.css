@@ -1,0 +1,38 @@
+/* Import */
+@import '../../var.css';
+
+.todo {
+	background-color: var(--softDarkColor);
+	margin-bottom: 20px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+.todoColText {
+	max-width: 60%;
+}
+.todoColInput {
+	max-width: 40%;
+}
+.icon {
+	width: 40px;
+	height: 40px;
+	fill: var(--brightColor);
+	background-color: var(--darkColor);
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.delete {
+	width: 40px;
+	height: 40px;
+	fill: var(--brightColor);
+	background-color: var(--dangerColor);
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,121 @@
+/* ================ Import ================ */
+
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap');
+/*Var*/
+@import './var.css';
+
+
+/* ================ General ================ */
+
+body {
+  /*Style*/
+  margin: 0;
+  /*Font*/
+  font-family: 'Zen Kaku Gothic Antique', sans-serif !important;
+  /*Color*/
+  color: var(--brightColor) !important;
+  background-color: var(--darkColor) !important;
+}
+.contentPadding {
+  /*Style*/
+	padding: 30px 10px 120px 10px;
+}
+
+
+/* ================ Log ================ */
+
+.iconLog {
+	/*Style*/
+	width: 30px;
+	height: 30px;
+}
+
+
+/* ================ Form ================ */
+
+.todoForm {
+  /*Style*/
+	margin: 20px -5px;
+  /*Position*/
+	display: flex;
+	flex-direction: row;
+}
+.itemTodoForm {
+  /*Style*/
+	margin: 0 5px;
+	border: none;
+}
+.form-control {
+  /*Style*/
+  border: none !important;
+  border-radius: 10px !important;
+  /*Font*/
+	font-weight: 600;
+}
+.btn.btn-success {
+  /*Style*/
+	border: none !important;
+  border-radius: 10px;
+  /*Font*/
+	font-weight: 600;
+  /*Color*/
+  color: var(--darkColor);
+  background-color: var(--successColor) !important;
+}
+.btn.btn-dark {
+  /*Style*/
+	border: none !important;
+  border-radius: 10px;
+  /*Font*/
+	font-weight: 600;
+  /*Color*/
+  background-color: var(--darkColor) !important;
+}
+.btn.btn-danger {
+  /*Style*/
+	border: none !important;
+  border-radius: 10px;
+  /*Font*/
+	font-weight: 600;
+}
+
+
+/* ================ Alert ================ */
+
+.Toastify__toast.Toastify__toast-theme--light.Toastify__toast--success,
+.Toastify__toast.Toastify__toast-theme--light.Toastify__toast--error {
+  /*Style*/
+  border-radius: 10px;
+  /*Font*/
+  font-size: 20px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif !important;
+  /*Color*/
+  color: var(--brightColor);
+	background-color: var(--softDarkColor);
+}
+
+
+/* ================ Footer ================ */
+
+footer {
+	/*Style*/
+	width: 94%;
+	height: auto;
+  padding: 15px;
+	border-radius: 20px 20px 20px 20px;
+	/*Font*/
+	font-size: 13px;
+	text-align: center;
+	/*Color*/
+	background-color: rgba(255, 255, 255, 0.2);;
+	backdrop-filter: blur(20px);
+	/*Position*/
+	position: fixed;
+	bottom: 20px;
+  left: 3%;
+	/*Position items*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
